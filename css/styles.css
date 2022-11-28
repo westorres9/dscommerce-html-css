@@ -125,3 +125,33 @@ nav h1 {
 .dsc-line-bottom {
     border-bottom: 1px solid var(--dsc-color-card-border);
 }
+
+
+/*-----------------------------------------------------------*/
+/* button styles */
+.btn-page-container {
+    width: 220px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.btn {
+    border-radius: 4px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blue {
+    background-color: var(--dsc-color-btn-primary);
+    color: var(--dsc-color-btn-inverse);
+}
+
+.btn-white {
+    background-color: var(--dsc-color-btn-inverse);
+    color: var(--dsc-color-btn-primary);
+    border: 2px solid var(--dsc-color-btn-primary);
+}
