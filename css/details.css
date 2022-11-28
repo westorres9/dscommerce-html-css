@@ -1,4 +1,4 @@
-@import url("./styles.css");
+@import url("styles.css");
 
 #product-details-section {
     padding: 20px 0;
@@ -19,11 +19,13 @@
 }
 
 .dsc-product-details-bottom h3 {
-    color: var(--dsc-color-font-secondary)
+    color: var(--dsc-color-font-secondary);
+    font-size: 20px;
 }
 
 .dsc-product-details-bottom h4 {
     color: var(--dsc-color-font-primary);
+    font-size: 12px;
 }
 
 .dsc-product-details-bottom p {
@@ -51,4 +53,3 @@
     justify-content: center;
     align-items: center;
 }
-
